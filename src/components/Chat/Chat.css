@@ -34,7 +34,7 @@
 
 .chat-user {
   background-image: url('/template/chat-user.png');
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -47,7 +47,7 @@
 
 .chat-bot {
   background-image: url('/template/chat-bot.png');
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;

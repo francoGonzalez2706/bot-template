@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import AudioVisualizer from './soundWave';
 import audio from '../../resouses/end_banco_popUp.ogg'
 const ComponentWave: React.FC = () => {

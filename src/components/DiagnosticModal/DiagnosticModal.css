@@ -1,7 +1,7 @@
 .containerModal {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -14,18 +14,18 @@
   background-image: url('/template/popup-diagnostico1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   position: relative;
-  width: 90vw;
-  height: 85vh;
-  gap: .5rem;
-  padding: 1.5rem;
-  border-radius: 1rem;
+  width: 70%;
+  height: 80%;
 }
 
 .modal .Text-area {
-  width: 50vw;
-  max-height: 62vh;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  width: 65%;
+  max-height: 69%;
   overflow-y: scroll;
 }
 
@@ -34,12 +34,12 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  top: 72vh;
-  right: 17vw;
+  top: 80%;
+  right: 13%;
   background-image: url('/template/btn-restart.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 7vw;
-  height: 12vh;
+  width: 8%;
+  height: 12%;
 }
