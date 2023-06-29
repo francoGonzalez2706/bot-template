@@ -17,7 +17,7 @@
 }
 
 .Btn_mic_off {
-  background-image: url('/public/template/btn_mic_off.png');
+  background-image: url('/template/btn_mic_off.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,7 +30,7 @@
 }
 
 .separador {
-  background-image: url('/public/template/separador-static.png');
+  background-image: url('/template/separador-static.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,7 @@
 }
 
 .bootom-fade {
-  background-image: url('/public/template/degradé-footer.png');
+  background-image: url('/template/degradé-footer.png');
   background-size: cover;
   background-position: center;
   position: absolute;

@@ -19,9 +19,9 @@ export const FooterLeft = ({ ProgresBar }: props) => {
         {
           numbers.map((e, index) => {
             if (ProgresBar / 10 * 2 <= index) {
-              return (<img className='avance' src='/public/template/avance_off.png' />)
+              return (<img className='avance' src='/template/avance_off.png' />)
             } else {
-              return (<img className='avance' src='/public/template/avance_on.png' />)
+              return (<img className='avance' src='/template/avance_on.png' />)
             }
 
           })

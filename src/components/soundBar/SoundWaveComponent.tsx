@@ -23,9 +23,9 @@ const ComponentWave: React.FC = () => {
                     <div style={{ display: 'flex', flexDirection: 'column-reverse', gap: '.5vh', margin: '0 .7vw' }}>
                       {numbers.map((e, index) => {
                         if (height / 10 >= e) {
-                          return (<img key={index} style={{ width: '1.5vh' }} src='/public/template/px_audio-off.png' />)
+                          return (<img key={index} style={{ width: '1.5vh' }} src='/template/px_audio-off.png' />)
                         } else {
-                          return (<img key={index} style={{ width: '1.5vh' }} src='/public/template/px_audio-on1.png' />)
+                          return (<img key={index} style={{ width: '1.5vh' }} src='/template/px_audio-on1.png' />)
                         }
                       })}
                     </div>)

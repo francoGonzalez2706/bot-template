@@ -1,5 +1,5 @@
 .content-footer {
-  background-image: url('/public/template/content-footer.png');
+  background-image: url('/template/content-footer.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,7 +12,7 @@
 }
 
 .btn-volver {
-  background-image: url('/public/template/btn-volver.png');
+  background-image: url('/template/btn-volver.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -28,7 +28,7 @@
 }
 
 .btn-Bateria {
-  background-image: url('/public/template/btn_bat.png');
+  background-image: url('/template/btn_bat.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,7 +44,7 @@
 }
 
 .btn-Avanzar {
-  background-image: url('/public/template/btn-avanzar.png');
+  background-image: url('/template/btn-avanzar.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

@@ -3,6 +3,7 @@ import "./Template.css";
 import ComponentWave from '../soundBar/SoundWaveComponent';
 import { Chat } from '../Chat/Chat';
 import { FooterLeft } from '../FooterLeft/FooterLeft';
+import { ModalDiagnosticoContainer } from '../ModalDiagnostico/ModalDiagnosticoContainer';
 
 export const Template = () => {
   const [state, setstate] = useState('LOREM IPSUM DOLOR SIT AMET CONSECTETUR, ADIPISICING ELIT. CUPIDITATE TEMPORE APERIAM VOLUPTATES VITAE DOLORUM ELIGENDI. CONSEQUUNTUR QUOD EA VEL ASPERNATUR PORRO MODI AT EXPEDITA HARUM DESERUNT NISI, IMPEDIT, ALIQUID CUMQUE?')
@@ -20,6 +21,7 @@ export const Template = () => {
         <ComponentWave />
       </div>
       <div className='bootom-fade' />
+      <ModalDiagnosticoContainer />
     </div>
   )
 }
