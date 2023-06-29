@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import AudioVisualizer from './soundWave';
+import AudioVisualizer from './SoundWave';
 import audio from '../../resouses/end_banco_popUp.ogg'
 const ComponentWave: React.FC = () => {
   const [touch, settouch] = useState(false)
