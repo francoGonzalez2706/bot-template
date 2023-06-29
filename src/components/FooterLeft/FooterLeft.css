@@ -1,0 +1,73 @@
+.content-footer {
+  background-image: url('/public/template/content-footer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 25vw;
+  height: 18vh;
+  top: 80vh;
+  left: 5vw;
+  z-index: 8;
+}
+
+.btn-volver {
+  background-image: url('/public/template/btn-volver.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 5vw;
+  height: 7vh;
+  top: 4vh;
+  left: 40%;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-Bateria {
+  background-image: url('/public/template/btn_bat.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 5vw;
+  height: 7vh;
+  top: 4vh;
+  left: 1vw;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-Avanzar {
+  background-image: url('/public/template/btn-avanzar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 5vw;
+  height: 7vh;
+  top: 4vh;
+  left: 75%;
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+.ProgressBar {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  width: 90%;
+  z-index: 10;
+}
+
+.avance {
+  width: 5%;
+}
